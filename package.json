@@ -1,0 +1,51 @@
+{
+  "name": "hyper-http-fetch",
+  "version": "1.0.0",
+  "description": "Use the fetch API to access HTTP servers exposed by hypertele.",
+  "keywords": [
+    "http",
+    "p2p",
+    "fetch",
+    "hyperswarm"
+  ],
+  "homepage": "https://github.com/RangerMauve/hyper-http-fetch#readme",
+  "bugs": {
+    "url": "https://github.com/RangerMauve/hyper-http-fetch/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RangerMauve/hyper-http-fetch.git"
+  },
+  "license": "MIT",
+  "author": "RangerMauve",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": {
+      "types":"./dist/index.d.ts",
+      "default": "./src/index.js"
+    },
+    "./server": {
+      "types": "./dist/server.d.ts",
+      "default": "./src/server.js"
+    }
+  },
+  "scripts": {
+    "test": "node --test",
+    "lint": "eslint --fix && tsc"
+  },
+  "dependencies": {
+    "hypercore-id-encoding": "^1.3.0",
+    "hyperdht": "^6.32.0",
+    "undici": "^8.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "eslint": "^10.4.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.6",
+    "hypertele": "^1.1.4",
+    "prettier": "^3.8.3",
+    "typescript": "^6.0.3"
+  }
+}
