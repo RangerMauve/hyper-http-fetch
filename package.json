@@ -1,6 +1,6 @@
 {
   "name": "hyper-http-fetch",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Use the fetch API to access HTTP servers exposed by hypertele.",
   "keywords": [
     "http",
