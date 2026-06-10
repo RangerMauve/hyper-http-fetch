@@ -19,6 +19,11 @@
   "license": "MIT",
   "author": "RangerMauve",
   "type": "module",
+  "files": [
+    "src/",
+    "dist/",
+    "test.js"
+  ],
   "main": "src/index.js",
   "exports": {
     ".": {
