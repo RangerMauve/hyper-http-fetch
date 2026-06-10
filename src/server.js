@@ -22,7 +22,7 @@ const SKIP_BODY_METHODS = new Set(["GET", "HEAD"]);
 /**
  * @typedef {object} HyperServer
  * @property {string} url
- * @property {{publicKey: Buffer, privateKey: Buffer}} keyPair
+ * @property {{publicKey: Buffer, secretKey: Buffer}} keyPair
  * @property {() => Promise<void>} destroy
  */
 
