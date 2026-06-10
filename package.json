@@ -1,6 +1,6 @@
 {
   "name": "hyper-http-fetch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use the fetch API to access HTTP servers exposed by hypertele.",
   "keywords": [
     "http",
@@ -27,7 +27,7 @@
   "main": "src/index.js",
   "exports": {
     ".": {
-      "types":"./dist/index.d.ts",
+      "types": "./dist/index.d.ts",
       "default": "./src/index.js"
     },
     "./server": {
